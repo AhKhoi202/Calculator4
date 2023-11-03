@@ -1,0 +1,18 @@
+--Ð?y DL t? local lên global
+1. Git status 	xem thay d?i
+2. Git add . 	Ðua các file có thay d?i vào tr?ng thái s?n sàng
+3. Git commit -m "ghi chú"  Ðua vào thùng ch?a c?c b?
+4. Git push origin master  	Ð?y n?i dung lên nhánh master theo k?t n?i tên origin
+
+--X? lý confilt
+1. T?o nhánh
+Git branch tennhanh
+2. Di chuy?n qua các nhánh
+git checkout ten nhánh
+3. Tr?n n?i dung t? nhánh master sau khi các nhánh dã d?y lên global
+a. l?y n?i dung m?i nh?t v?
+git pull origin master
+b. Tr?n nhánh
+git merge tenNhanhMuonTron
+c. X? lý xóa các dòng gây confict
+d. Git add .,  Git commit, Git push
