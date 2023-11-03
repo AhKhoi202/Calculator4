@@ -27,5 +27,10 @@ namespace Calculator4
                 textBox3.Text = c.ToString();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
