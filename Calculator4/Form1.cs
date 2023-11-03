@@ -19,7 +19,11 @@ namespace Calculator4
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if(textBox1.Text!=String.Empty)
+=======
+            if(textBox1.Text!=String.Empty && textBox2.Text!=String.Empty)
+>>>>>>> feature-cal
             {
                 double a = double.Parse(textBox1.Text);
                 double b = double.Parse(textBox2.Text);
